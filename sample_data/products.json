@@ -1,0 +1,162 @@
+[
+    {
+        "name": "Lightweight Waterproof Hoodie",
+        "description": "A comfortable and stylish waterproof hoodie perfect for outdoor activities. Features breathable material and multiple pockets.",
+        "price": 89.99,
+        "category": "Outdoor Clothing",
+        "lat": 12.9716,
+        "lon": 77.5946
+    },
+    {
+        "name": "Professional DSLR Camera",
+        "description": "High-quality DSLR camera with 24.1MP sensor, 4K video recording, and advanced autofocus system.",
+        "price": 1299.99,
+        "category": "Electronics",
+        "lat": 12.9716,
+        "lon": 77.5946
+    },
+    {
+        "name": "Wireless Noise-Cancelling Headphones",
+        "description": "Premium wireless headphones with active noise cancellation and 30-hour battery life.",
+        "price": 299.99,
+        "category": "Electronics",
+        "lat": 12.9716,
+        "lon": 77.5946
+    },
+    {
+        "name": "Organic Cotton T-Shirt",
+        "description": "Soft and comfortable organic cotton t-shirt, perfect for everyday wear.",
+        "price": 24.99,
+        "category": "Clothing",
+        "lat": 12.9716,
+        "lon": 77.5946
+    },
+    {
+        "name": "Stainless Steel Water Bottle",
+        "description": "Durable stainless steel water bottle with double-wall insulation to keep drinks cold for 24 hours.",
+        "price": 19.99,
+        "category": "Accessories",
+        "lat": 12.9716,
+        "lon": 77.5946
+    },
+    {
+        "name": "Smart Fitness Tracker",
+        "description": "Advanced fitness tracker with heart rate monitoring, sleep tracking, and 7-day battery life.",
+        "price": 79.99,
+        "category": "Electronics",
+        "lat": 12.9716,
+        "lon": 77.5946
+    },
+    {
+        "name": "Leather Wallet",
+        "description": "Genuine leather wallet with multiple card slots and RFID protection.",
+        "price": 49.99,
+        "category": "Accessories",
+        "lat": 12.9716,
+        "lon": 77.5946
+    },
+    {
+        "name": "Portable Bluetooth Speaker",
+        "description": "Compact waterproof Bluetooth speaker with 12-hour battery life and rich sound quality.",
+        "price": 59.99,
+        "category": "Electronics",
+        "lat": 12.9716,
+        "lon": 77.5946
+    },
+    {
+        "name": "Memory Foam Pillow",
+        "description": "Orthopedic memory foam pillow designed for optimal neck support and comfort.",
+        "price": 39.99,
+        "category": "Home",
+        "lat": 12.9716,
+        "lon": 77.5946
+    },
+    {
+        "name": "Wireless Charging Pad",
+        "description": "Fast wireless charging pad compatible with all Qi-enabled devices.",
+        "price": 29.99,
+        "category": "Electronics",
+        "lat": 12.9716,
+        "lon": 77.5946
+    },
+    {
+        "name": "Stainless Steel Cookware Set",
+        "description": "10-piece stainless steel cookware set with induction-compatible bases.",
+        "price": 199.99,
+        "category": "Home",
+        "lat": 12.9716,
+        "lon": 77.5946
+    },
+    {
+        "name": "Smart Doorbell Camera",
+        "description": "HD video doorbell with motion detection and two-way audio communication.",
+        "price": 149.99,
+        "category": "Electronics",
+        "lat": 12.9716,
+        "lon": 77.5946
+    },
+    {
+        "name": "Organic Coffee Beans",
+        "description": "Premium organic coffee beans, medium roast, sourced from sustainable farms.",
+        "price": 14.99,
+        "category": "Food",
+        "lat": 12.9716,
+        "lon": 77.5946
+    },
+    {
+        "name": "Yoga Mat",
+        "description": "Non-slip yoga mat with carrying strap, perfect for home workouts.",
+        "price": 34.99,
+        "category": "Fitness",
+        "lat": 12.9716,
+        "lon": 77.5946
+    },
+    {
+        "name": "Smart Light Bulb",
+        "description": "Color-changing smart LED bulb compatible with voice assistants and mobile apps.",
+        "price": 24.99,
+        "category": "Electronics",
+        "lat": 12.9716,
+        "lon": 77.5946
+    },
+    {
+        "name": "Leather Backpack",
+        "description": "Stylish leather backpack with laptop compartment and multiple pockets.",
+        "price": 129.99,
+        "category": "Accessories",
+        "lat": 12.9716,
+        "lon": 77.5946
+    },
+    {
+        "name": "Electric Toothbrush",
+        "description": "Advanced electric toothbrush with multiple cleaning modes and long battery life.",
+        "price": 79.99,
+        "category": "Personal Care",
+        "lat": 12.9716,
+        "lon": 77.5946
+    },
+    {
+        "name": "Smart Thermostat",
+        "description": "Energy-saving smart thermostat with mobile app control and learning capabilities.",
+        "price": 199.99,
+        "category": "Home",
+        "lat": 12.9716,
+        "lon": 77.5946
+    },
+    {
+        "name": "Wireless Gaming Mouse",
+        "description": "High-performance wireless gaming mouse with customizable buttons and RGB lighting.",
+        "price": 69.99,
+        "category": "Electronics",
+        "lat": 12.9716,
+        "lon": 77.5946
+    },
+    {
+        "name": "Smart Watch",
+        "description": "Feature-rich smartwatch with fitness tracking, notifications, and customizable watch faces.",
+        "price": 199.99,
+        "category": "Electronics",
+        "lat": 12.9716,
+        "lon": 77.5946
+    }
+] 
