@@ -1,4 +1,4 @@
-from sqlalchemy import Column, String, Float, UUID
+from sqlalchemy import Column, String, Float, UUID, LargeBinary
 from sqlalchemy.dialects.postgresql import UUID as PGUUID
 from geoalchemy2 import Geometry
 from app.db.database import Base
@@ -12,4 +12,5 @@ class Product(Base):
     description = Column(String, nullable=False)
     price = Column(Float, nullable=False)
     category = Column(String, nullable=False)
-    location = Column(Geometry('POINT', srid=4326), nullable=False) 
+    location = Column(Geometry('POINT', srid=4326), nullable=False)
+    faiss_index = Column(LargeBinary, nullable=True)  # Store FAISS index as binary data 

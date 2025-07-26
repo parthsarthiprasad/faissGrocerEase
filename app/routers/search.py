@@ -30,9 +30,6 @@ class ProductResponse(BaseModel):
     lat: float
     lon: float
     description: str
-    created_at: Optional[str] = None
-    rating: Optional[float] = None
-    is_available: bool
 
 @router.post("/", response_model=List[ProductResponse])
 async def search(
@@ -67,14 +64,15 @@ async def search(
         SELECT id, name, price, category, 
                ST_Y(location::geometry) as lat, 
                ST_X(location::geometry) as lon,
-               description, created_at, rating, is_available
+               description
         FROM products
-        WHERE id = ANY(:product_ids)
+        WHERE id::text = ANY(:product_ids)
     """
     
     # Add availability filter if specified
-    if request.show_only_available:
-        base_query += " AND is_available = true"
+    # Note: is_available column doesn't exist in current schema
+    # if request.show_only_available:
+    #     base_query += " AND is_available = true"
     
     # Add sorting
     if request.sort_by:
@@ -82,10 +80,11 @@ async def search(
             base_query += " ORDER BY price ASC"
         elif request.sort_by == "price_desc":
             base_query += " ORDER BY price DESC"
-        elif request.sort_by == "rating":
-            base_query += " ORDER BY rating DESC NULLS LAST"
-        elif request.sort_by == "newest":
-            base_query += " ORDER BY created_at DESC"
+        # Note: rating and created_at columns don't exist in current schema
+        # elif request.sort_by == "rating":
+        #     base_query += " ORDER BY rating DESC NULLS LAST"
+        # elif request.sort_by == "newest":
+        #     base_query += " ORDER BY created_at DESC"
     
     # Add limit
     base_query += " LIMIT :limit"
@@ -107,10 +106,7 @@ async def search(
             category=row[3],
             lat=row[4],
             lon=row[5],
-            description=row[6],
-            created_at=row[7].isoformat() if row[7] else None,
-            rating=row[8],
-            is_available=row[9]
+            description=row[6]
         )
         for row in results
     ] 
