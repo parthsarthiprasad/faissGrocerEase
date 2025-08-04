@@ -74,7 +74,8 @@ function App() {
   const handleSearch = async () => {
     setLoading(true);
     try {
-      const response = await axios.post('http://localhost:8000/api/search', {
+      const apiUrl = process.env.REACT_APP_API_URL || 'http://34.42.51.177:8000';
+      const response = await axios.post(`${apiUrl}/search/`, {
         query,
         lat,
         lon,
