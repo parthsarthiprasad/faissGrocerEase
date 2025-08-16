@@ -1,0 +1,162 @@
+[
+    {
+        "name": "Organic Whole Milk",
+        "description": "Fresh organic whole milk from grass-fed cows, rich in calcium and vitamins.",
+        "price": 4.99,
+        "category": "dairy",
+        "lat": 40.7128,
+        "lon": -74.0060
+    },
+    {
+        "name": "Fresh Bananas",
+        "description": "Sweet and ripe bananas, perfect for smoothies or as a healthy snack.",
+        "price": 2.49,
+        "category": "produce",
+        "lat": 40.7128,
+        "lon": -74.0060
+    },
+    {
+        "name": "Whole Grain Bread",
+        "description": "Nutritious whole grain bread made with organic flour and seeds.",
+        "price": 3.99,
+        "category": "bakery",
+        "lat": 40.7128,
+        "lon": -74.0060
+    },
+    {
+        "name": "Cheddar Cheese Block",
+        "description": "Sharp cheddar cheese, aged for 12 months, perfect for cooking and snacking.",
+        "price": 6.99,
+        "category": "dairy",
+        "lat": 40.7128,
+        "lon": -74.0060
+    },
+    {
+        "name": "Fresh Tomatoes",
+        "description": "Vine-ripened tomatoes, juicy and flavorful for salads and cooking.",
+        "price": 3.49,
+        "category": "produce",
+        "lat": 40.7128,
+        "lon": -74.0060
+    },
+    {
+        "name": "Chicken Breast",
+        "description": "Boneless, skinless chicken breast, hormone-free and responsibly raised.",
+        "price": 8.99,
+        "category": "meat",
+        "lat": 40.7128,
+        "lon": -74.0060
+    },
+    {
+        "name": "Brown Rice",
+        "description": "Organic brown rice, rich in fiber and nutrients, perfect for healthy meals.",
+        "price": 4.49,
+        "category": "pantry",
+        "lat": 40.7128,
+        "lon": -74.0060
+    },
+    {
+        "name": "Greek Yogurt",
+        "description": "Creamy Greek yogurt with live cultures, high in protein and probiotics.",
+        "price": 5.99,
+        "category": "dairy",
+        "lat": 40.7128,
+        "lon": -74.0060
+    },
+    {
+        "name": "Fresh Spinach",
+        "description": "Organic baby spinach leaves, packed with iron and vitamins.",
+        "price": 2.99,
+        "category": "produce",
+        "lat": 40.7128,
+        "lon": -74.0060
+    },
+    {
+        "name": "Eggs (Dozen)",
+        "description": "Farm-fresh eggs from free-range chickens, rich in protein and omega-3.",
+        "price": 4.49,
+        "category": "dairy",
+        "lat": 40.7128,
+        "lon": -74.0060
+    },
+    {
+        "name": "Ground Beef",
+        "description": "Lean ground beef, 85% lean, perfect for burgers and meatballs.",
+        "price": 7.99,
+        "category": "meat",
+        "lat": 40.7128,
+        "lon": -74.0060
+    },
+    {
+        "name": "Apples (Gala)",
+        "description": "Sweet and crisp Gala apples, perfect for snacking or baking.",
+        "price": 3.99,
+        "category": "produce",
+        "lat": 40.7128,
+        "lon": -74.0060
+    },
+    {
+        "name": "Pasta (Spaghetti)",
+        "description": "Traditional Italian spaghetti made with durum wheat semolina.",
+        "price": 2.49,
+        "category": "pantry",
+        "lat": 40.7128,
+        "lon": -74.0060
+    },
+    {
+        "name": "Orange Juice",
+        "description": "Fresh-squeezed orange juice, no pulp, rich in vitamin C.",
+        "price": 4.99,
+        "category": "beverages",
+        "lat": 40.7128,
+        "lon": -74.0060
+    },
+    {
+        "name": "Frozen Pizza",
+        "description": "Margherita frozen pizza with fresh mozzarella and basil.",
+        "price": 6.99,
+        "category": "frozen",
+        "lat": 40.7128,
+        "lon": -74.0060
+    },
+    {
+        "name": "Almond Milk",
+        "description": "Unsweetened almond milk, dairy-free and rich in vitamin E.",
+        "price": 3.99,
+        "category": "beverages",
+        "lat": 40.7128,
+        "lon": -74.0060
+    },
+    {
+        "name": "Salmon Fillet",
+        "description": "Fresh Atlantic salmon fillet, rich in omega-3 fatty acids.",
+        "price": 12.99,
+        "category": "meat",
+        "lat": 40.7128,
+        "lon": -74.0060
+    },
+    {
+        "name": "Avocados",
+        "description": "Ripe Hass avocados, creamy and perfect for guacamole or toast.",
+        "price": 4.99,
+        "category": "produce",
+        "lat": 40.7128,
+        "lon": -74.0060
+    },
+    {
+        "name": "Chocolate Chip Cookies",
+        "description": "Homemade-style chocolate chip cookies, soft and chewy.",
+        "price": 3.49,
+        "category": "bakery",
+        "lat": 40.7128,
+        "lon": -74.0060
+    },
+    {
+        "name": "Ice Cream (Vanilla)",
+        "description": "Premium vanilla ice cream made with real vanilla beans.",
+        "price": 5.99,
+        "category": "frozen",
+        "lat": 40.7128,
+        "lon": -74.0060
+    }
+] 
